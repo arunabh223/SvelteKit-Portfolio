@@ -120,11 +120,6 @@
 
 <slot />
 
-<footer>
-	Created with
-	<span class="svelte">Svelte</span>
-</footer>
-
 <style>
 	* {
 		box-sizing: border-box;
@@ -268,10 +263,6 @@
 		max-width: 900px;
 		text-align: center;
 		width: 100%;
-	}
-
-	footer .svelte {
-		color: #ff3e00;
 	}
 
 
