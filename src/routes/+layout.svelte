@@ -270,17 +270,10 @@
 		width: 100%;
 	}
 
-	/* footer a {
-		text-decoration: none;
-		color: #4158d0;
-	} */
 	footer .svelte {
 		color: #ff3e00;
 	}
 
-	/* footer .me {
-		color: #ff3e00;
-	} */
 
 	@media (min-width: 900px) {
 		:global(.tooltip) {
