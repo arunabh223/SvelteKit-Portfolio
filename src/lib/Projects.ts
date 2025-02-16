@@ -1,23 +1,17 @@
 const projects = [
 	{
-		title: 'GDLauncher',
-		technologies: ['Node', 'React', 'Redux', 'Electron'],
+		title: 'Fine tuning an LLM for document generation',
+		technologies: ['OpenAI', 'Python'],
 		description:
-			'GDLauncher is a simple, yet powerful Minecraft custom launcher with a strong focus on the user experience',
-		url: 'https://github.com/gorilla-devs/GDLauncher'
+			'Fine tuning a large language model to generate SOPs (Standard Operating Procedures).',
+		url: 'https://github.com/arunabh223/FineTuning_SOP'
 	},
 	{
-		title: 'WiseMan Discord Bot',
-		technologies: ['NodeJs', 'FireBase', 'MongoDb', 'golang'],
+		title: 'How to create analytics dashboards',
+		technologies: ['Google BigQuery', 'Python', 'SQL', 'Tableau'],
 		description:
-			'The wiseMan bot allows you to level up based on the time you spend in a vocal channel',
-		url: 'https://github.com/Ladvace/WiseMan-DiscordBot'
-	},
-	{
-		title: 'Easy-react-carousel',
-		technologies: ['React', 'NodeJs'],
-		description: 'A simple carousel made in reactjs',
-		url: 'https://github.com/Ladvace/easy-react-carousel'
+			'How to create a simple analytics dashboard using Google BigQuery and Tableau public.',
+		url: 'https://github.com/arunabh223/GCP'
 	}
 ];
 

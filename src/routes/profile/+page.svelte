@@ -1,5 +1,5 @@
 <script>
-	import skills from '$lib/Skills';
+    import experience from '$lib/Experience';
 </script>
 
 <svelte:head>
@@ -8,22 +8,20 @@
 
 <div class="container">
 	<main>
-		<h1>About</h1>
+		<h1>Profile</h1>
 		<p>
-			MBA graduate, tech enthusiast, and pharma professional. I write about AI, Data Engineering,
-			Programming, and Data Science, bridging tech and business.
+			5+ years of experience in tech and operation within the manufacturing and pharma sector.
 		</p>
-		<p>Reach me on arunabh223@gmail.com</p>
-		<h2>Skills</h2>
-		{#each Object.entries(skills) as [section, technologies]}
+		<h2>Experience</h2>
+		{#each Object.entries(experience) as [section, technologies]}
 			<ul>
 				<li>
 					<h4>
-						{section}:
+						{section}
 					</h4>
-					<div class="list">
+					<div>
 						{#each technologies as technology}
-							<div>
+							<div class="list">
 								{technology}
 							</div>
 						{/each}
@@ -65,6 +63,8 @@
 		display: flex;
 		flex-direction: column;
 		gap: 30px;
+        font-size: small;
+        font-style: oblique;
 	}
 
 	@media (min-width: 900px) {
