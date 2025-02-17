@@ -13,6 +13,7 @@
 			MBA graduate, tech enthusiast, and pharma professional. I write about AI, Data Engineering,
 			Programming, and Data Science, bridging tech and business.
 		</p>
+		<p>A generalist aiming to become a polymath. I love exploring the unknown.</p>
 		<p>Reach me on arunabh223@gmail.com</p>
 		<h2>Skills</h2>
 		{#each Object.entries(skills) as [section, technologies]}

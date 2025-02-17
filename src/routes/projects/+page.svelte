@@ -10,7 +10,8 @@
 	<div class="projects">
 		<h1>Projects</h1>
 		<p class="note">
-			A list of some of my projects. 
+			A list of some of my projects. I try to use free and open-source tools for my projects 
+			so that anyone having a computer can learn from it.
 		</p>
 		{#each projects as project}
 			<div class="project">
